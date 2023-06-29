@@ -16,7 +16,7 @@ public class TodoController {
     }
 
     @GetMapping("all")
-    public List<String> getHello() {
+    public List<String> getAllTodos() {
         return List.of();
     }
 }
